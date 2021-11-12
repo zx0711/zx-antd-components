@@ -2,7 +2,13 @@
   "name": "zx-antd-components",
   "version": "1.0.0",
   "description": "基于antd封装的后台组件库",
-  "main": "index.js",
+  "repository": "https://github.com/zx0711/zx-antd-components.git",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "demo"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open development",
@@ -12,7 +18,6 @@
     "compile": "npx babel src --out-dir lib"
   },
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",

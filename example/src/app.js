@@ -3,12 +3,12 @@
  * @Author: xiao.zhang
  * @Date: 2021-11-12 14:25:38
  * @LastEditors: xiao.zhang
- * @LastEditTime: 2021-11-12 14:40:41
+ * @LastEditTime: 2021-11-13 13:21:05
  */
 import React from 'react';
 // const
 import ReactDOM from 'react-dom';
-import ReactDemo from '../../src';
+import { ReactDemo } from '../../src';
 
 const App = () => <ReactDemo />;
 ReactDOM.render(<App />, document.getElementById('root'));
